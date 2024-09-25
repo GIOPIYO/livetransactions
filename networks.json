@@ -1,0 +1,8 @@
+{
+  "mainnet": {
+    "BoredApeChemistryClub": {
+      "address": "0x22c36BfdCef207F9c0CC941936eff94D4246d14A",
+      "startBlock": 13115709
+    }
+  }
+}
