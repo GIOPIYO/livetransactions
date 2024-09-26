@@ -50,7 +50,7 @@ export function handleSetBaseURI(event: SetBaseURIEvent): void {
   let entity = new SetBaseURI(
     event.transaction.hash.concatI32(event.logIndex.toI32())
   )
-  entity._baseURI = event.params._baseURI
+  entity._baseURI = event.params._baseURI.toString();
 
   entity.blockNumber = event.block.number
   entity.blockTimestamp = event.block.timestamp
